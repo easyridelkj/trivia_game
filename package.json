@@ -1,0 +1,19 @@
+{
+  "name": "trivia-game",
+  "version": "1.0.0",
+  "description": "A fun React trivia game built with Vite.",
+  "main": "src/main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}

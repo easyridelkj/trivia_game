@@ -1,0 +1,74 @@
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+input, button {
+  font-size: 1rem;
+}
+
+
+button {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 28px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(33,147,176,0.15);
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+  transform: scale(1.05);
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.trivia-card {
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(33,147,176,0.12);
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 500px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-section {
+  text-align: center;
+  margin-top: 40px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(33,147,176,0.12);
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+@media (max-width: 600px) {
+  .trivia-card, .score-section {
+    padding: 18px 8px;
+    max-width: 98vw;
+  }
+  input {
+    width: 98vw;
+    max-width: 98vw;
+  }
+}
